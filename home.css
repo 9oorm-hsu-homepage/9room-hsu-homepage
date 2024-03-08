@@ -26,6 +26,11 @@ body {
   /* margin: 0 auto;
           max-width: 960px;
           padding: 20px; */
+
+  /*이중 스크롤바 제거*/
+  height: 100%;
+  overflow: hidden;
+  
   margin-left: auto;
   margin-right: auto;
   max-width: 415px;
