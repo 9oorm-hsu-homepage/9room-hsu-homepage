@@ -1,0 +1,23 @@
+:root {
+  --blue: rgba(51, 102, 255, 1);
+  --blue-2: rgba(195, 210, 255, 1);
+  --purple: rgba(208, 191, 255, 1);
+  --white: rgba(255, 255, 255, 1);
+  --gray: rgba(191, 191, 191, 1);
+  --black: rgba(25, 25, 25, 1);
+  --graysblack: rgba(0, 0, 0, 1);
+  --grayswhite: rgba(255, 255, 255, 1);
+  --head-line-font-family: "Pretendard", Helvetica;
+  --head-line-font-weight: 700;
+  --head-line-font-size: 24px;
+  --head-line-letter-spacing: 0px;
+  --head-line-line-height: 30px;
+  --head-line-font-style: normal;
+  ---font-family: "Pretendard", Helvetica;
+  ---font-weight: 500;
+  ---font-size: 14px;
+  ---letter-spacing: 0px;
+  ---line-height: normal;
+  ---font-style: normal;
+  --effect: 0px 2px 4px 1px rgba(0, 0, 0, 0.2);
+}
