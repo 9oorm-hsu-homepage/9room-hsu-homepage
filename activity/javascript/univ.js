@@ -44,7 +44,8 @@ function clickedLeftButton(btn) {
   }
 
   btn.style.background = '#EBEBEB';
-  if (index == size) {
+  if (index==size-1 || index==size) {
+    console.log(5);
     document.getElementById('left').style.stroke = '#4C4B4B';
     document.getElementById('right').style.stroke = '#4C4B4B';
     btn.style.background = '#EBEBEB'; //진한색
@@ -59,7 +60,7 @@ function clickedLeftButton(btn) {
   
   index--;
 
-myChange();
+  myChange();
 
 }
 
