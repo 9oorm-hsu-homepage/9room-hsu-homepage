@@ -19,7 +19,7 @@ body{
 .display{
   margin: 0px auto;
   min-width: 375px;
-  min-height: 125vh;
+  min-height: 105vh;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -27,9 +27,12 @@ body{
   background-color: #FEFEFE;
 }
 
+.container{
+}
+
 .navbar{
   display: flex;
-  min-width: 352px;
+  min-width: 353px;
   padding: 12px 16px;
   align-items: center;
   gap: 10px;
@@ -256,15 +259,6 @@ display: inline-block;
   height: 209px;
 }
 
-/*
-.section2{
-  display: flex;
-width: 375px;
-padding: 0px 20px;
-flex-direction: column;
-align-items: flex-start;
-gap: 12px;
-} */
 
 .hansungTitle{
   align-self: stretch;
@@ -346,7 +340,7 @@ gap: 12px;
   gap: 16px;
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.80);
-  background: url(../image/study.png), lightgray 50%;
+  background: url(../image/study.jpg), lightgray 50%;
   background-repeat: no-repeat;
   position: relative;
   bottom: 170px;
@@ -363,7 +357,7 @@ gap: 12px;
   gap: 16px;
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.80);
-  background: url(../image/mt.png), lightgray 50%;
+  background: url(../image/mt.jpg), lightgray 50%;
   background-repeat: no-repeat;
   position: relative;
   left: 16px;
@@ -408,7 +402,7 @@ gap: 12px;
   gap: 16px;
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.80);
-  background: url(../image/univ.png), lightgray 50%;
+  background: url(../image/univ.jpg), lightgray 50%;
   background-repeat: no-repeat;
   position: relative;
   bottom: 170px;
@@ -431,16 +425,87 @@ gap: 12px;
 }
 
 .contextCardRight2{
-    align-self: stretch;
+  align-self: stretch;
   color: #000;
-text-align: right;
-font-family: Pretendard;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 120%; /* 16.8px */
+  text-align: right;
+  font-family: Pretendard;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 16.8px */
   position: relative;
   bottom: 75px;
   left: 12px;
-    width: 159px;
+  width: 159px;
+}
+
+.footer{
+  min-width: 353px;
+  height: 217.07px;
+  flex-shrink: 0;
+  background: #F0F0F0;
+}
+
+.footerTitle{
+  width: 257px;
+  height: 23.68px;
+  flex-shrink: 0;
+  color: #767676;
+
+  /* 카테고리별 제목용 폰트 */
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 120% */
+  position: relative;
+  top:53.28px;
+  left:32px;
+}
+
+.footerPresent{
+  width: 242px;
+  height: 53.281px;
+  flex-shrink: 0;
+  color: #767676;
+
+  /* 설명용 폰트 */
+  font-family: Pretendard;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 128.571% */
+
+  position: relative;
+  top:84.86px;
+  left:32px;
+}
+
+.footerFinal{
+  width: 277px;
+  height: 17.76px;
+  flex-shrink: 0;
+  color: rgba(0, 0, 0, 0.50);
+  text-align: center;
+
+  /* 설명용 폰트 */
+  font-family: Pretendard;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 128.571% */
+  position: relative;
+  top:99.04px;
+  left:32px;
+}
+
+body{
+  image-rendering:-webkit-optimize-contrast;
+  transform:translateZ(0);
+  backface-visibility:hidden;
+}
+
+.menuButton{
+  background-color:transparent;
+  border: #FFF;
 }
