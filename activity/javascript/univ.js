@@ -1,8 +1,8 @@
 let univImageList = [
   './image/image0.png',
   './image/image1.png',
-  './image/image2.png',
-  './image/image3.png',
+  './image/image2.jpg',
+  './image/image3.jpg',
 ];
 
 let univTitleList = ['온보딩 세미나', '벚꽃톤',"9UAP","연합행사"];
