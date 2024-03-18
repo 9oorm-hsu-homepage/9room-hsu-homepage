@@ -373,7 +373,7 @@ h2 {
   position: absolute;
   height: 127px;
   top: 522px;
-  left: 52px;
+  left: 30px;
   font-family: 'Pretendard-ExtraBold', Helvetica;
   font-weight: 400;
   color: transparent;
@@ -486,6 +486,7 @@ h2 {
   width: 24px;
   height: 24px;
   background-size: 100% 100%;
+  left: -2px;
 }
 
 .iphone-mini .text-wrapper-10 {
@@ -768,6 +769,10 @@ h2 {
   box-shadow: 0px 0px 12px #00000033;
 }
 
+.iphone-mini .overlap-3:hover {
+  box-shadow: 0 0 8px;
+}
+
 .iphone-mini .text-wrapper-19 {
   position: absolute;
   top: 15px;
@@ -799,6 +804,10 @@ h2 {
   background-color: #7266ff;
   border-radius: 10px;
   box-shadow: 0px 0px 12px #00000033;
+}
+
+.iphone-mini .overlap-4:hover {
+  box-shadow: 0 0 8px;
 }
 
 .iphone-mini .overlap-5 {
